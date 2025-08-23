@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#050518"> <!-- Color for mobile browser chrome -->
+    <meta name="apple-mobile-web-app-capable" content="yes"> <!-- iOS fullscreen capability -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!-- iOS status bar style -->
+    <title>RESPECT MY VPS | Contact Us</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./audio-styles.css">
+    <link rel="stylesheet" href="./mobile.css"> <!-- Mobile-specific styles -->
+</head>
+
+<body>
+    <!-- Background Audio -->
+    <audio id="background-audio" loop preload="auto" autoplay>
+        <source src="./public/assets/audio/unatco.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Audio Controls -->
+    <div id="audio-controls">
+        <button id="toggle-audio" class="cyberpunk-btn" title="Toggle Music">
+            <i class="fas fa-volume-up"></i>
+        </button>
+    </div>
+
+    <!-- Scanlines and noise effects - added via JS -->
+    <div class="noise-overlay"></div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo logo-glitch" data-text="RMVPS">
+                    <span>R</span>MVPS
+                    <div class="logo-subtext">RESPECT MY VPS</div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#contact-section" class="nav-link glitch-small" data-text="CONTACT">CONTACT</a></li>
+                    <li><a href="https://www.youtube.com/@respectmyvps" target="_blank" class="nav-link" title="YouTube Channel"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="mailto:askme@mailbox.respectmyvps.net" class="nav-link" title="Email Us"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="https://console.calibour.com/donate/4355cd8e-286f-415f-886c-43442035d253" target="_blank" class="nav-link" title="Support Us"><i class="fas fa-hand-holding-heart"></i></a></li>
+                    <li><a href="https://discord.gg/respectmyvps" target="_blank" class="nav-link" title="Join our Discord"><i class="fab fa-discord"></i></a></li>
+                    <li><a href="https://github.com/jjmay108" target="_blank" class="nav-link" title="GitHub Repository"><i class="fab fa-github"></i></a></li>
+                </ul>
+                <div class="menu-button">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact-section" class="pricing hero">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="ultra-glitch cyber-text acid-text" data-text="RespectMyVPS">RespectMyVPS</h1>
+                <p class="neon-pulse">What do you wait ? Follow us right now !</p>
+            </div>
+            <div class="contact-links">
+                <a href="https://www.youtube.com/@respectmyvps" target="_blank" class="contact-link cyberpunk-style">
+                    <i class="fab fa-youtube fa-3x"></i>
+                    <span>YouTube Channel</span>
+                    <p>youtube.com/@respectmyvps</p>
+                    <div class="cyber-glitch-box"></div>
+                </a>
+                <a href="mailto:askme@mailbox.respectmyvps.net" class="contact-link neotech-style">
+                    <i class="fas fa-envelope fa-3x"></i>
+                    <span>Email Us</span>
+                    <p>askme@mailbox.respectmyvps.net</p>
+                    <div class="neotech-circuit"></div>
+                </a>
+                <a href="https://console.calibour.com/donate/4355cd8e-286f-415f-886c-43442035d253" target="_blank" class="contact-link love-style">
+                    <i class="fas fa-hand-holding-heart fa-3x"></i>
+                    <span>Support Our Work</span>
+                    <p>Donate to Keep Content Free</p>
+                    <div class="love-pulse"></div>
+                </a>
+                <a href="https://discord.gg/respectmyvps" target="_blank" class="contact-link acid-style">
+                    <i class="fab fa-discord fa-3x"></i>
+                    <span>Join Our Discord</span>
+                    <p>discord.gg/respectmyvps</p>
+                    <div class="acid-drip"></div>
+                </a>
+                <a href="https://github.com/jjmay108" target="_blank" class="contact-link tech-style">
+                    <i class="fab fa-github fa-3x"></i>
+                    <span>GitHub Repository</span>
+                    <p>github.com/respectmyvps</p>
+                    <div class="tech-grid"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer removed as requested -->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
